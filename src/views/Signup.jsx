@@ -58,12 +58,12 @@ const Signup = () => {
            <h3>SELECT YOUR ROLE</h3>
            <div className='flex justify-between py-4'>
             <div className='px-2'>  
-                <input type='radio' name='role' />
+                <input type='radio' name='role' className='curser cursor-pointer' />
                 <label className='px-1'>Farmer</label>
                 </div>
              
             <div className=''>  
-                <input type='radio' name='role' />
+                <input type='radio' name='role' className='curser cursor-pointer'/>
                 <label className='px-1'>Stock holder</label>
                 </div>
                 </div>
